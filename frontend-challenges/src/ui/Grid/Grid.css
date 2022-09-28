@@ -1,0 +1,18 @@
+.grid {
+    display: flex;
+    flex-grow: 1;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    max-width: 1920px;
+    width: 96vw;
+    max-height: 780px;
+  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .grid{
+    display: flex;
+    flex-direction: column;
+  }
+}

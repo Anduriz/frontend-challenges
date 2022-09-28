@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+  
+    margin-top: 1rem;
+    max-width: 1920px;
+    width: 96vw;
+    height: 100px;
+  }
+  
+  .navbar-menu{
+    margin-top: auto;
+    margin-left: auto;
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    color: rgb(56, 56, 56);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+  }
+    
+  .navbar li {
+    display: inline;
+    margin-right: 2rem;
+  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .navbar-menu{
+    display: none;
+  }
+}
